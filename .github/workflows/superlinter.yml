@@ -7,7 +7,7 @@ jobs:
     name: Lint code base
     runs-on: ubuntu-latest
     steps:
-      - name: checkout code
+      - name: Checkout code
         uses: action/checkout@v2
 
       - name: Run Super-Linter
